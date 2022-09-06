@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  api:
+    image: jagernau/testing_front_co4:$GITHUB_REF_NAME-$GITHUB_RUN_ID
+    ports:
+      - 80:80

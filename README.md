@@ -38,4 +38,4 @@ python load_fixture.py
 ```shell
 flask run -h localhost -p 25000
 ```
-
+- Проэкт запускается через докер.
